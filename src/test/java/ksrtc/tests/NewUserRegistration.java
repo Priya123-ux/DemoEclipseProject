@@ -24,7 +24,7 @@ public class NewUserRegistration {
   public void signUp() throws InterruptedException {
 	  HomePage hmpage=new HomePage(driver);
 	  hmpage.clickOnNewUserRegistrationLink();
-	  Thread.sleep(2000);
+	  Thread.sleep(4000);
 	  SignUpPage sgnPage=new SignUpPage(driver);
 	  Assert.assertTrue(sgnPage.ispageopened());
 	  sgnPage.enterUserName("supriyabasireddy@gmail.com");
